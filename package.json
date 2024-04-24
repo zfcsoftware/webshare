@@ -1,0 +1,28 @@
+{
+  "name": "webshare",
+  "version": "1.0.0",
+  "description": "This library is unofficial. It allows you to detect and automatically update the proxy list every certain period of time. Continuously requesting the proxy list link may cause your account to be disapproved. For this reason, it allows you to check if the first proxy in the existing proxy list is working and get the list if not.  No responsibility is accepted for any problems that may arise.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webshare",
+    "webshare.io",
+    "proxy",
+    "proxylist",
+    "proxylistupdate",
+    "proxylistcheck"
+  ],
+  "author": "zfcsoftware",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zfcsoftware/webshare"
+  },
+  "homepage": "https://github.com/zfcsoftware/webshare",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "https-proxy-agent": "^7.0.4"
+  }
+}
