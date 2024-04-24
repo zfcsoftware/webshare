@@ -1,3 +1,5 @@
+# Webshare
+
 This library is unofficial. It allows you to detect and automatically update the proxy list every certain period of time. Continuously requesting the proxy list link may cause your account to be disapproved. For this reason, it allows you to check if the first proxy in the existing proxy list is working and get the list if not.  No responsibility is accepted for any problems that may arise.
 
 
@@ -36,5 +38,3 @@ var check = new webshare({
 **.parsed** Converts the given proxy string into jsons with host, port, username and password variables and returns array.
 
 **.req** It sends a request to the url that returns the proxy list. Both the txt is updated and the new list is returned to you.
-
-# webshare
