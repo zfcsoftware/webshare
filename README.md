@@ -4,7 +4,7 @@ This library is unofficial. It allows you to detect and automatically update the
 
 
 ```js
-const webshare = require('webshare');
+const webshare = require('webshare-proxy');
 
 var check = new webshare({
     url: 'https://proxy.webshare.io/api/v2/proxy/list/download/<your-hash>/-/any/username/direct/-/',
